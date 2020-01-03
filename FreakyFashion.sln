@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "src\Web Apps\WebMVC\WebMVC.csproj", "{DF0DA2F4-0F50-4F2A-AC84-9A89747F3C9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5320262F-CA5E-4187-82EA-79EBE68691F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Apps", "Web Apps", "{2294BB81-F5F2-49F2-8498-12E409116568}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF0DA2F4-0F50-4F2A-AC84-9A89747F3C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0DA2F4-0F50-4F2A-AC84-9A89747F3C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0DA2F4-0F50-4F2A-AC84-9A89747F3C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0DA2F4-0F50-4F2A-AC84-9A89747F3C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF0DA2F4-0F50-4F2A-AC84-9A89747F3C9B} = {2294BB81-F5F2-49F2-8498-12E409116568}
+		{2294BB81-F5F2-49F2-8498-12E409116568} = {5320262F-CA5E-4187-82EA-79EBE68691F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B625C07-08E4-48B3-AC36-ECE16BB1288A}
